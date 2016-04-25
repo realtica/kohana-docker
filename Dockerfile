@@ -1,5 +1,7 @@
 FROM php:5.4-apache
 
+ENV KOHANA_ENV="" 
+
 RUN a2enmod rewrite
 
 RUN buildRequirements="libxml2-dev" \
