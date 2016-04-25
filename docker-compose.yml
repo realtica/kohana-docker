@@ -1,9 +1,0 @@
-version: "2"
-services:
-  apache:
-    image: php:5.4-apache
-    build: ./php
-    hostname: apache
-    ports:
-      - "80:80"
-      - "443:443"
